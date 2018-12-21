@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/../css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <h1>Crear usuario</h1>
+        <span>
+            Nombre
+            <input id="nameInput" maxlength="30">
+            <span class="errorName hidden">El nombre tiene que ser menor a 30 caracteres</span>
+        </span>
+        <span>
+            Apellido
+            <input id="surnameInput" maxlength="30">
+            <span class="errorSurname hidden">El apellido tiene que ser menor a 30 caracteres</span>
+        </span>
+        <span>
+            Telefono
+            <input id="phoneInput" type="number">
+            <span class="errorPhone hidden">El telefono tiene que ser en numeros</span>
+        </span>
+        <span>
+            Email
+            <input id="emailInput">
+        </span>
+        <span class="errorEmail hidden">El email es invalido</span>
+        <button type="button" id="saveForm">Guardar</button>
+    </form>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/../js/index.js"></script>
+
+</body>
+</html>

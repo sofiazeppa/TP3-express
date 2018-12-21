@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    color: darkorchid;
+}
+h1 {
+    width: 100%;
+}
+button {
+    margin: 1% 0;
+    background-color: white;
+    color: darkorchid;
+}
+input {
+    border: 1px solid white;
+    outline: 1px solid lightcoral;
+    color: darkorchid;
+}
+form {
+    padding: 5%;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    span {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.errorName, .errorSurname, .errorPhone, .errorEmail {
+    color: darkred;
+    font-size: 14px;
+}
+
+.main-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .bar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.all-users-container {
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .user-container {
+        background-color: lightgreen;
+        width: 25%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
