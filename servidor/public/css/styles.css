@@ -7,14 +7,13 @@ body {
   color: darkorchid;
 }
 
-h1 {
-  width: 100%;
-}
-
 button {
   margin: 1% 0;
   background-color: white;
   color: darkorchid;
+}
+button:focus {
+  outline: 1px solid lightcoral;
 }
 
 input {
@@ -24,6 +23,7 @@ input {
 }
 
 form {
+  width: 30%;
   padding: 5%;
   background-color: lightcoral;
   display: flex;
@@ -61,7 +61,6 @@ form span {
 }
 .all-users-container .user-container {
   background-color: lightgreen;
-  width: 25%;
   margin: 1%;
   display: flex;
   flex-direction: column;
